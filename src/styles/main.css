@@ -1,0 +1,114 @@
+@import url(./fonts.min.css);
+
+body{
+    font-family: "Libre Franklin" !important;
+}
+
+header{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo{
+        margin: 0 auto !important;
+        padding-top: 0;
+}
+
+p{
+    text-align: justify !important;
+}
+.About{
+    background: rgba(255, 250, 242, 1) !important;
+}
+#skils, .Skils{
+    background: rgba(245, 214, 171, 1) !important;
+}
+
+.progress-bar{
+    background-color: blue;
+}
+.titles{
+    font-size: 12px;
+}
+
+.arrow-left{
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    transform: rotate(315deg);
+}
+.arrow-right{
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    transform: rotate(135deg);
+}
+
+footer{
+   background-color: rgba(255, 250, 242, 1);
+}
+
+.rectangle{
+    width: 170px;
+}
+
+.dom-luis{
+    width: 123px;
+}
+
+.river{
+    width: 169px;
+}
+
+.city{
+    width: 123px;
+    height: 69px;
+}
+
+@media (min-width: 1240px) {
+    .profile_img.container-fluid.p-lg-0{
+        width: 350px !important;
+    }
+header{
+    height: 768px;
+}
+#h2{
+    font-size: 64px !important;
+}
+#p{
+    font-size: 24px !important;
+}
+#a{
+    font-size: 18px !important;
+}
+.rectangle{
+    width: 350px;
+    height: 144px !important;
+}
+
+.dom-luis{
+    width: 255px;
+}
+
+.river{
+    width: 349px;
+}
+
+.city{
+    width: 255px;
+    height: 144px !important;
+}
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-toggler {
+  display: none;
+}
+    .logo{
+        padding-left: 70px;
+    }
+}
